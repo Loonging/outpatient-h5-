@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  padding: 40px 20px;
+  margin-top: 20px;
+  border-radius: 4px;
+  background: $bg9FF;
+  @include borderBox;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  & > div {
+    line-height: $fl50;
+  }
+}
+.name {
+  width: 100%;
+  @include alignCenter;
+  & > span {
+    font-size: $fs18;
+    margin-left: 20px;
+    padding: 2px 20px;
+    color: $fc2Fc;
+    background: $bgDFE;
+    @include borderBox;
+    border-radius: 20px;
+    display: inline-block;
+  }
+}
+.id {
+  margin-top: 16px;
+}
+.state {
+  padding: 4px 6px;
+  font-size: $fs16;
+  position: absolute;
+  top: 0;
+  right: 2%;
+  color: $fc2Fc;
+  background: $bgDFE;
+  border-radius: 0 0 10px 10px;
+}

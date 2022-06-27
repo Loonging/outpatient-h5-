@@ -1,0 +1,101 @@
+// 字体大小
+$fs16: 16px;
+$fs18: 18px;
+$fs20: 20px;
+$fs22: 22px;
+$fs24: 24px;
+$fs26: 26px;
+$fs28: 28px;
+$fs30: 30px;
+
+// 文字行高
+$fl20: 20px;
+$fl24: 24px;
+$fl28: 28px;
+$fl32: 32px;
+$fl36: 36px;
+$fl40: 40px;
+$fl50: 50px;
+
+// 字体颜色
+$fc023: #1d2023;
+$fc22D: #f5222d;
+$fc3D2: #1f73d2;
+$fcB95: #00bb95;
+$fcF33: #2e2f33;
+$fc129: #1d2129;
+$fcF66: #575f66;
+$fc9A0: #8e99a0;
+$fc969: #4e5969;
+$fcD53: #ef4d53;
+$fc2Fc: #83a2fc;
+
+// 背景颜色
+
+$bgAFA: #fafafa;
+$bg9ED: #39a9ed;
+$bgBED: #fcebed;
+$bg9FF: #f6f9ff;
+$bgDFE: #e6edfe;
+
+// 公共样式变量
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexJcBetween {
+  display: flex;
+  justify-content: space-between;
+}
+@mixin flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flexAround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin flexStart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@mixin flexStartC {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@mixin flexEnd {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@mixin alignCenter {
+  display: flex;
+  align-items: center;
+}
+
+@mixin alignStretch {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+@mixin borderBox {
+  box-sizing: border-box;
+}
+
+@mixin title {
+  font-size: $fs30;
+  font-weight: 700;
+  line-height: $fl36;
+}
